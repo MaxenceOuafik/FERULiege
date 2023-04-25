@@ -1,8 +1,0 @@
----
-title: "La syndémie : entre synergie des maladies et hybridation des disciplines"
-format: revealjs
-editor:
-  render-on-save: true
----
-
-# Partie I : une introduction aux syndémies

@@ -1,0 +1,308 @@
+---
+title: "La syndémie : entre synergie des maladies et hybridation des disciplines"
+subtitle: "Présentation dans le cadre de la demi-journée d'étude du FERULiège : Déterminants sociaux de la santé et perspectives de recherche"
+author: "Dr OUAFIK Maxence"
+institute: "Département de Médecine Générale - Soins primaires et santé"
+format: 
+  revealjs:
+    title-slide-attributes:
+      data-background-image: "./images/background.jpg"
+    slide-level: 4
+    incremental: true
+    transition: slide
+    slide-number: c/t
+    toc: true
+    toc-depth: 1
+    toc-title: "Plan de la présentation"
+    reference-location: document
+    navigation-mode: linear
+    menu: true
+    chalkboard: true
+    multiplex: true
+    touch: true
+    hide-inactive-cursor: true
+    theme: [default, custom.scss]
+    mermaid:
+      theme: forest
+  pptx: 
+    prefer-html: true
+    toc: true
+    toc-depth: 1
+    toc-title: "Plan de la présentation"
+    slide-level: 4
+editor:
+  render-on-save: true
+bibliography: bibliography.bib
+---
+
+# Partie I : une introduction aux syndémies
+## Histoire et définition
+### Une histoire intimement liée au VIH/SIDA
+
+- La première syndémie identifiée et décrite dans la littérature est la syndémie **SAVA** *(abus de substance, violence et SIDA)* [@singer1996]
+- Contexte : programme de prévention du VIH chez des usagers de drogue en centre-ville
+- L'abus de substance, la violence et le SIDA étaient **intimement liés et influencés par un ensemble de facteurs socio-économiques et politiques** : haut taux de chômage, pauvreté, sans-abrisme, surpopulation, malnutrition, détérioration des infrastructures, interruption des réseaux de soutien, et inégalités sociales et ethniques.
+
+::: {.notes}
+- Contexte de propagation du VIH en centre-ville, en conjonction avec d'autres conditions endémiques et épidémiques : tuberculose, IST, hépatites, cirrhose, mortalité infantile, abus de substance, suicide et homicide.
+- Parler du potentiel syndémogène du VIH/SIDA et des maladies infectieuses en général 
+- Deux choses ont été retenues : l'interaction et le contexte social
+:::
+
+### Définition d'une syndémie
+
+::: {.callout-tip}
+## 
+Une syndémie peut être définie comme **l’agrégation d’au moins deux maladies ou problèmes de santé** dans une population pour laquelle il existe un **certain niveau d’interface biologique ou comportementale délétère** qui **exacerbe** les effets négatifs de chacune des maladies impliquées [@singer2017]
+:::
+
+![Illustration d'une syndémie [@singer2017]](images/syndemic.png){#fig-syndemic height=350}
+
+### Apport du modèle syndémique aux sciences biomédicales [@singer2017]
+- Les maladies ont été comprises comme des phénomènes **discrets** et **socialement détachées**.
+- La syndémie apporte un changement de paradigme en examinant le **pourquoi** et le **comment** de l'agrégation des maladies
+  - Le pourquoi est ici socialement situé : inégalité, injustice, stigmatisation
+  - Le comment est dans l'étude des interactions 
+- Elle dépasse ainsi les concepts classiques de **multimorbidité** et de **comorbidité**
+
+::: {.notes}
+Les interactions syndémiques peuvent être de tout type : **infections, maladies chroniques non communicables, maladie mentale, comportements délétères, expositions aux toxiques, malnutrition**… À ce titre, les interactions sociopsychologiques, psychobiologiques, et sociobiologiques sont tout aussi fondamentales que les interactions biologiques.
+:::
+
+## Anatomie des syndémies
+### Les trois conditions de la syndémie 
+1. **Au moins deux problèmes** de santé ou maladies sont concentrés dans une population
+2. Cette concentration est due à un **contexte social délétère** tel que la précarité ou la discrimination
+3. Les différentes maladies ou problèmes de santé interagissent de manière **synergique**, que ce soit biologiquement, socialement ou comportementalement afin d’accroitre le fardeau en morbi-mortalité de la population concernée au-delà de leur simple addition
+
+::: {.notes}
+Une syndémie a davantage de chance de survenir lorsqu'il existe des inégalités de santé causées par la pauvreté, la stigmatisation, le stress, ou la violence structurelle, car ces facteurs jouent un rôle dans l'exposition, l'agrégation, et la vulnérabilité physique et comportementale accrue aux maladies.
+::: 
+
+### La stigmatisation comme terreau propice à l'émergence d'une syndémie
+
+```{mermaid}
+%%| label: fig-MSM
+%%| fig-cap: "Illustration du lien entre stigmatisation et syndémogenèse chez les HSH [@singer2017] "
+flowchart LR
+  A[Stigmatisation] --> B{Stress minoritaire}
+  B --> C(Mécanismes de coping dysfonctionnels)
+  C --> D(Abus d'alcool)
+  C --> E(Abus de substance)
+  B --> F(Dépression)
+  B --> G(Anxiété)
+  C --> H(Comportements sexuels à risque)
+  D --> H
+  E --> H
+  F --> H
+  G --> H
+  H --> 1(ISTs)
+  H --> 2(VIH)
+  E --> 3
+  H --> 3(Hépatites)
+  2 --> 3
+  3 --> 2
+  1 --> 2
+```
+
+:::{.notes}
+La stigmatisation peut à la fois être celle d'une identité ou d'une maladie (p. ex. sérophobie)
+L'internalisation de cette stigmatisation a aussi des conséquences
+:::
+
+## Syndémogenèse et biologies locales : l'importance du contexte 
+
+### Le concept de syndémogenèse
+
+::: {.callout-tip}
+## Définition
+On parle de **syndémogenèse** pour décrire les processus, voies, et étapes de développement d'une syndémie à partir des interactions entre maladies et contexte social, ainsi qu'entre les maladies entre elles [@singer2017].
+:::
+- Certaines maladies sont plus syndémogènes que d'autres et se retrouvent donc impliquées dans plusieurs syndémies
+- Certains processus *(catastrophes naturelles, changement climatique)*
+
+
+::: {.notes}
+L'expansion et l'intensification de l'agriculture sont par exemple liées à plus de 30% des éclosions de maladies infectieuses émergentes.
+Il n'y a donc pas de syndémie globale de changement climatique, mais une série de syndémies qui requièrent des réponses adaptées au contexte local
+:::
+
+#### Les syndémies liées au VIH
+- SAVA et politique migratoire : les politiques migratoires et la barrière de la langue comme sources de stress chroniques contribuant à la syndémie SAVA
+- SAVA, normes de genre, et héritage colonial en Afrique du Sud 
+
+::: {.notes}
+- Consommation abusive d'alcool fréquente à cause des **shabeens**,  nées en protestation contre la prohibition durant l'Apartheid. 
+- Héritage du **dop**, un paiement de système datant du colonialisme européen, qui payait les populations indigènes avec du vin impropre à la vente, de tabac, et de pain. 
+  - Création d'une force de travail loyale en raison de son alcoolisme. 
+  - Interdit en 1960,mais failles permettant de donner du vin gratuit comme cadeau aux travailleurs. 
+- Alcool ➡️ formes dominantes de masculinité (force, la volonté à prendre des risques, la domination, et la masculinité).
+- L'usage d'alcool, combiné aux normes genrées et aux violences sur les femmes nourrissent l'épidémie de violence interpersonnelle présente en Afrique du Sud, et, partant de là, la syndémie SAVA.
+:::
+
+#### Les syndémies liées au diabète
+
+![La syndémie VIDDA [@mendenhall2012]](images/vidda.png){#fig-vidda height=600}
+
+::: {.notes}
+- VIDDA : immigrées mexicaines à Chicago ; violence, du stress lié à l'immigration/isolation, de la dépression, diabète, et de l'abus (VIDDA). Les attentes culturelles pour maintenir les normes genrées (marianismo) rentraient en conflit avec les attentes occupationnelles et les changements de style de vie (activité physique et changement d'alimentation). On trouvait également un stress accru, une majoration de la dépression et de la violence conjugale.
+- Puerto Rico : Jones Act 1920 (colonialisme) ➡️ limite du contrôle local des réserves en nourriture ➡️ hausse des prix et insécurité alimentaire ➡️ chômage et pauvreté ➡️ stress chronique, diabète, dépression
+:::
+
+#### Il n'y a pas de syndémie globale
+
+::: {.callout-important}
+Des syndémies qui semblent globales, car liées par des maladies, des espaces, des temporalités ou des contextes syndémogènes sont en réalité uniques et dépendantes des lieux, temporalités, et agencements de maladies des individus.
+:::
+
+### Les biologies étant locales, les syndémies ne peuvent que l'être aussi
+- Le concept de **biologies locales** a été introduit par Margaret Lock pour expliquer les variations dans les symptômes et langages de la ménopause [@lock2001]
+- Les corps qui composent ces biologies locales sont le produit d'interactions constantes des facteurs sociaux, culturaux, et biologiques **au sein desquelles le social et le biologique sont mutuellement constitutifs.**
+
+
+::: {.notes}
+Le terme konênki, ne recouvrait pas une réalité entièrement comparable à celle de la ménopause. Il s'agissait d'un processus plutôt que d'un changement brutal lié à l'arrêt des règles, qu'une partie des femmes japonaises n'associaient pas au konênki. Les bouffées de chaleur étaient beaucoup plus rares qu'en Amérique du Nord, et le symptôme principal, tant du point de vue des femmes que des médecins, était la raideur de nuque. 
+Le terme bouffée de chaleur n'existe d'ailleurs pas à l'identique en japonais 
+
+Les corps qui composent les biologies locales ne sont ni entièrement matériels ni entièrement sociaux, mais sont produits par une interpénétration dialectique du biologique et du culturel.
+::: 
+
+### Incarnation du social 
+- L'**épigénétique**, le **microbiome**, et la **plasticité cérébrale** sont des voies potentielles d'incarnation du social ; du lien entre le contexte social et les biologies humaines situées [@singer2022]
+- Alors que de nombreux processus biologiques sont universels, les expériences incarnées individuelles de ces processus, dues aux biologies locales, sont contingentes des contextes sociaux, environnementaux et politiques dans lesquels les individus vivent.
+
+:::{.notes}
+- Parler de l'épigénétique et des CSA
+- Parler de l'épigénétique et de la transmission du traumatisme intergénérationnel
+:::
+
+### Il n'y a vraiment pas de syndémie globale
+
+::: {.callout-important}
+Puisque les corps et les biologies des individus qui composent une syndémie sont toujours locaux — façonnés par des processus historiques, des contingences environnementales, et des histoires personnelles qui ne peuvent être comprises que localement — toute interaction syndémique ne peut être que locale.
+:::
+
+# Partie II : de la nécessité d'une approche transdisciplinaire
+## Abolir les frontières entre disciplines et formes de savoir
+- La transdisciplinarité intègre les sciences naturelles, sociales et de santé dans un contexte de sciences humaines et, ce faisant, transcende leurs limites respectives [@choi2006]
+- Pour @jahn2012, la transdisciplinarité est une méthode de recherche **critique** et **autoréflexive** qui met en lien le sociétal avec des problèmes scientifiques. Elle produit de nouvelles connaissances en intégrant différentes perspectives scientifiques et extra scientifiques en vue de contribuer à la fois au progrès social et scientifique.
+
+### Tentative de définition
+
+::: {.callout-tip}
+## Définition de travail inspirée des définitions précédentes et de la revue de portée de @sell2022
+Au vu de tout cela, la transdisciplinarité peut être définie comme visant à traverser (*trans-*) les frontières entre les disciplines. Ce faisant, **elle dissout les barrières traditionnellement établies entre les différentes formes de savoir et les différentes disciplines**, en croisant les paradigmes disciplinaires et en intégrant les connaissances et perspectives des sources scientifiques et non- scientifiques en vue de faire avancer à la fois la science et la société. 
+:::
+
+::: {.notes}
+3 trucs à retenir : 
+1. Dissoudre les frontières entre disciplines
+2. Dissoudre les frontières entre savoir scientifique et non-scientifique
+3. Rôle de progrès social
+:::
+
+### Multidisciplinarité, interdisciplinarité, et transdisciplinarité [@choi2006]
+- Dans la multidisciplinarité, chaque discipline reste dans ses frontières et son domaine d'expertise 
+- L'interdisciplinarité vise à réaliser une synthèse cohérente entre les disciplines
+- La transdisciplinarité cherche à transcender ces frontières pour produire de nouvelles théories et outils
+
+::: {.notes}
+Chevauchement important entre inter- et transdisciplinarité. La co-construction des savoirs et la nature participative de la transdisciplinarité sont alors vues comme sa différence principale
+:::
+
+### La co-construction des savoirs entre les mondes scientifiques et non scientifiques est au cœur de la transdisciplinarité
+- La transdisciplinarité cherche à faire disparaître les frontières entre les différents types de savoir
+- Cela concerne tant les disciplines scientifiques entre elles qu'entre le scientifique et le non-scientifique (personnes concernées, monde associatif, monde militant, monde politique...)
+
+::: {.notes}
+La transdisciplinarité est donc particulièrement adaptée au travail avec les minorités sexuelles et de genre en ayant dans son essence même une emphase sur le mélange entre expertise académique et expertise non académique, notamment celui d'associations de terrain. Ou d'intégration de savoir expérientiel.
+:::
+
+## Deux modes de production du savoir
+
+@gibbons1994 ont décrit une tension entre deux modes de production du savoir en sciences : le **Mode 1** et le **Mode 2**
+
+- Le Mode 1 consiste en l'ancien paradigme de production de savoir, inscrit dans une discipline, et principalement intéressé dans le fait de conduire des expériences pour tester des théories. Les scientifiques opèrent de manière autonome et ne doivent des comptes qu'à leur université ou à leur source de financement. L'objectif est de produire des **théories à portée universelle**. 
+- Le Mode 2, est décrit comme un nouveau paradigme de production de savoir, **collaboratif et transparent**, orienté sur la **résolution de problème** plutôt que sur la théorie, **socialement situé**, et au sein duquel la **responsabilité** des scientifiques est multiple : université, société, parties preneuses
+
+::: {.notes}
+- Vue caricaturale, mais intéressante ; médecine est plutôt mode 1 tandis que sciences sociales (et études de genre en particulier sont du mode 2) ➡️ challenges dans la collaboration 
+- L'absence de syndémie globale, son indispensable transdisciplinarité et l'usage de méthodes mixtes en fait une production plus proche du mode 2 ➡️ difficultés d'appartenance et de financement en bossant là-dessus en face de médecine
+- Dire deux mots de la hiérarchisation des disciplines à dépasser
+:::
+
+# Partie III : exemples pratiques issus de ma thèse
+## Une littérature (un peu trop) dense
+
+```{r}
+#| fig-cap: "Réseau de conditions syndémiques étudiées dans la littérature [@ouafik2022]"
+#| label: fig-network
+library(networkD3)
+library(tidyverse)
+load("./data/network.RData")
+edges <- edges |>
+  mutate(from = from -1,
+         to = to -1)
+
+nodes <- nodes |>
+  mutate(id = id - 1)
+forceNetwork(edges, nodes, 
+             Source = "from", 
+             Target = "to", 
+             Value = "weight", 
+             NodeID = "label_full", 
+             Group = "category",
+             Nodesize = "studies",
+             charge = -1000,
+             zoom = TRUE,
+             opacity = 0.9,
+             bounded = FALSE,
+             height = 550,
+             width = 1000,
+             fontSize = 30,
+             opacityNoHover = 0)
+```
+
+::: {.notes}
+Parler du manque d'études sur les personnes transmasc 
+:::
+
+## Co-construction des connaissances et adaptation locale
+- Seulement deux études belges sur le sujet  [@nostlinger2020; @vandenberghe2014]
+- Une seule étude sur les HSH transgenres ; 0 en Europe à travers ce prisme
+- Littérature dominée par les USA ; différences majeures de contexte
+
+---
+
+```{r Delphi}
+#| layout-ncol: 2
+#| label: tbl-delphi
+#| tbl-cap: 
+#|   - "Réponses des experts cisgenres"
+#|   - "Réponses des experts transgenres"
+
+load("./data/delphi_cis.RData")
+load("./data/delphi_trans.RData")
+library(flextable)
+wave3_table_cis
+wave3_table_trans
+```
+
+## Bientôt sur vos écrans
+- Une étude mixte visant à identifier une syndémie chez les HSH en Belgique francophone et à préciser sa syndémogenèse
+- Focalisation sur les points de convergences entre HSH cisgenres et transgenres, tant du point de vue de la syndémie  de la syndémogenèse
+
+::: {.notes}
+- *RQ1c* : "Ces conditions diffèrent-elles entre HSH cisgenres et transgenres ?"
+- *RQ2b* : "Dans quelle mesure cette syndémogenèse est-elle influencée par les normes de masculinité et la socialisation genrée ?"
+- *RQ2c* : "Prenant en compte le rapport aux normes de masculinité et la socialisation genrée, quels sont les différences et points de convergence dans la syndémogenèse entre les HSH cisgenres et transgenres ?"
+:::
+
+# Conclusion
+
+::: {.callout-important}
+## François Beck dans @akrich2022, page 94
+L’interdisciplinarité entre sciences sociales et santé est essentielle, car il n’y a pas d’action efficace possible sans une compréhension approfondie de la nature socioanthropologique des personnes et des groupes sociaux à qui on souhaite s’adresser.
+:::
+
+# Bibliographie {.scrollable}
